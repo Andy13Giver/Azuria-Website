@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - Azuria</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #b2dfdb);
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+            border: 20px solid #004d40;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 4em;
+            display: inline-block;
+            padding: 20px 40px;
+            border: 6px double #004d40;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 20px;
+        }
+
+        .location-info {
+            margin-top: 40px;
+            background-color: #ffffffc9;
+            border: 6px solid #004d40;
+            border-radius: 15px;
+            padding: 30px;
+            font-size: 1.2em;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: background-color 0.3s ease;
+        }
+
+        .location-info:hover {
+            background-color: #ffffffee;
+        }
+
+        .location-item {
+            margin: 20px 0;
+        }
+
+        .map {
+            margin-top: 40px;
+            width: 100%;
+            height: 400px;
+            background: #b2dfdb;
+            border: 3px solid #004d40;
+            border-radius: 15px;
+        }
+
+        .buttons {
+            margin-top: 40px;
+        }
+
+        .buttons a {
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: #004d40;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #004d40;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #00796b;
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Location</h1>
+        <div class="location-info">
+            <div class="location-item">
+                <strong>Address:</strong> 123 Azuria St, Sustainable City, AZ
+            </div>
+            <div class="location-item">
+                <strong>Coordinates:</strong> 25.1234° N, 70.5678° W
+            </div>
+            <div class="location-item">
+                <strong>Landmarks:</strong> Near the Great Green Park and Azuria River
+            </div>
+        </div>
+
+        <div class="map">
+            <!-- This can be an actual map iframe if needed -->
+            <p>Map Location will be displayed here (integrate Google Maps or other map tool)</p>
+        </div>
+
+        <div class="buttons">
+            <a href="index.html">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
